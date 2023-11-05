@@ -9,7 +9,7 @@ In the world of startups, success doesn't rest solely on the shoulders of the fo
 As a trainee working on this project, our mission is to unravel the complexities of the Indian startup ecosystem from 2019 to 2021. We are like explorers, navigating through a vast dataset that contains invaluable information about startup funding. Our main objective is to dissect this data, paying close attention to industry sectors, funding stages, geographical locations, and the intricate profiles of the companies involved. 
 
 Through our analysis, we aim to unearth profound insights that can illuminate the path for investment decisions. This means helping both established investors and budding entrepreneurs make informed choices in the world of startups. Moreover, our discoveries will enrich the collective knowledge of the startup landscape. 
-
+# Hypothesis and Questions
 
 1. **Hypothesis 1: Sector and Funding Amount** 
    - Null Hypothesis (H0): The sector in which a startup operates has no significant impact on the amount of funding it receives.
