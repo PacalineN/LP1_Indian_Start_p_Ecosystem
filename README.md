@@ -14,6 +14,17 @@ Through our analysis, we aim to unearth profound insights that can illuminate th
 
 
 # Hypothesis and Questions
+** Hypothesis : Sector and Funding Amount
+# Questions
+1. Which sectors have received a higher amount of funding each year ?
+2. which are top 10 companies that have received the most funds, as well as  their headquaters? 
+3. which are bottom 10 with the minimum funding and what are their headquaters? 
+4. How are the companies distributed across different funding stages?
+5. is there a trend or partners in fundings across the year ?
+6. which stage is likely to receive funds
+
+* Null Hypothesis (H0): The sector in which a startup operates has no significant impact on the amount of funding it receives.   
+*  Alternative Hypothesis (H1): The sector in which a startup operates has significant impact on the amount of funding it receives. 
 
 1. **Hypothesis 1: Sector and Funding Amount** 
    - Null Hypothesis (H0): The sector in which a startup operates has no significant impact on the amount of funding it receives.
