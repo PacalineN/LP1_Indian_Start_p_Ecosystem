@@ -118,8 +118,17 @@ This deep dive isn't just about answering questions but setting the stage for a 
 These insights and recommendations aim to guide strategic decisions, foster growth, and position stakeholders for success within the dynamic landscape of the Indian startup ecosystem.
 
 ## Reference
-
-The dataset used in this project is sourced from Flixable, a third-party Netflix search engine. Flixable provides comprehensive information about TV shows and movies available on Netflix up until 2021. The dataset is freely accessible on Kaggle, a platform for data science and machine learning enthusiasts. The data from Flixable serves as a valuable resource for exploring trends, patterns, and insights within the Netflix content landscape. The original dataset can be found on Kaggle, and credit goes to Flixable for compiling and making the data publicly available.
+I acknowledge the following sources for their contribution to this analysis:
+[1]. https://github.com/sj50179/Google-Data-Analytics-Professional-Certificate/wiki/1.3.2.Outlining-the-data-analysis-process.
+[2]. 19 Data Analysis Questions Examples For Efficient Analytics (datapine.com)
+[3]. A Step-by-Step Guide to the Data Analysis Process [2023] (careerfoundry.com)
+[4]. Data Analysis with Python - GeeksforGeeks
+[5]. Indian Startup Funding (In-depth analysis) | Kaggle
+[6]. Hypothesis Testing Steps & Examples - Data Analytics (vitalflux.com)
+[7]. Data Cleaning: Definition, Benefits, And How-To | Tableau
+[8]. Guide to Data Cleaning in ’23: Steps to Clean Data & Best Tools (aimultiple.com)
+[9]. See 20 Different Types Of Graphs And Charts With Examples (datapine.com)
+By presenting this analysis concisely and clearly, I aim to shed light on the funding landscape of the Indian start-up ecosystem, offering valuable insights for entrepreneurs, investors, and policymakers alike.
 
 
 
