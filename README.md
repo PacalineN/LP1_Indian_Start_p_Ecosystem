@@ -2,48 +2,67 @@
 
 # Exploring Trends in the Indian  Startup Funding ecosystem: A Data Analysis (2018-2021)
 
-# Business Understanding 
+## Table of Content 
+- [Project Overview](#project-overview)
+- [Data sources](#data-sources)
+- [Tools Used](#tools-used)
+- [Data Cleaning/Preparation](#data-cleaning)
 
-# Introduction
+- [Exporatory Data Analysis](#exporatory-data-analysis)
+- [Results/Findings](#results)
+- [Recommendation](#recommendation)
+- [Reference](#reference)
+  
+   
 
-In the world of startups, success doesn't rest solely on the shoulders of the founder. It's a team effort, and it extends beyond the company itself to benefit the development of the entire country. As the saying goes, 'you're not just funding a startup, you're sowing the seeds of national progress.' 
 
-As a trainee working on this project, our mission is to unravel the complexities of the Indian startup ecosystem from 2019 to 2021. We are like explorers, navigating through a vast dataset that contains invaluable information about startup funding. Our main objective is to dissect this data, paying close attention to industry sectors, funding stages, geographical locations, and the intricate profiles of the companies involved. 
+## Project Overview
+Welcome to our project, "Exploring Trends in the Indian Startup Funding Ecosystem." Here, we delve deep into the Indian startup landscape, conducting a thorough analysis of data spanning from 2019 to 2021. Leveraging the power of Python and data visualization through Power BI, we, as data analysts in this venture, aspire to uncover captivating trends within the expansive funding landscape of Indian startups. Join us on this exploration as we unravel the story behind the numbers, shedding light on the intricate patterns that have shaped the financial journey of startups in India during this critical period. 
+## Data sources 
+The data sources for this project are attributed to aAzubi Africa, providing access to information in three distinct parts. The initial dataset, encompassing data for 2020 and 2021, was securely stored in a database, accessible remotely. The second dataset, pertaining to the year 2019, was obtained from OneDrive. The final dataset, covering the year 2018, was sourced from a GitHub repository and was available in CSV format.
 
-Through our analysis, we aim to unearth profound insights that can illuminate the path for investment decisions. This means helping both established investors and budding entrepreneurs make informed choices in the world of startups. Moreover, our discoveries will enrich the collective knowledge of the startup landscape.
+## Tools Used
+- Python 
+- Pandas   
+- Matplotlib and Seaborn
+- PowerBI for crafting data visualizations and constructing dashboards
 
 
-# Hypothesis and Questions
-** Hypothesis : Sector and Funding Amount
-# Questions
-1. Which sectors have received a higher amount of funding each year ?
-2. which are top 10 companies that have received the most funds, as well as  their headquaters? 
-3. which are bottom 10 with the minimum funding and what are their headquaters? 
-4. How are the companies distributed across different funding stages?
-5. is there a trend or partners in fundings across the year ?
-6. which stage is likely to receive funds
+## Data Cleaning
+In the initial data preparation phase,I performed the following tasks : 
+1. Data loading and inspectation
+2. Handling missing values
+3. Data cleaning and formatting
 
-* Null Hypothesis (H0): The sector in which a startup operates has no significant impact on the amount of funding it receives.   
-*  Alternative Hypothesis (H1): The sector in which a startup operates has significant impact on the amount of funding it receives. 
+## Exporatory Data Analysis
 
-1. **Hypothesis 1: Sector and Funding Amount** 
-   - Null Hypothesis (H0): The sector in which a startup operates has no significant impact on the amount of funding it receives.
-   - Alternative Hypothesis (H1): Certain sectors are associated with higher levels of funding compared to others.
+Exploratory Data Analysis (EDA) is crucial for understanding the Netflix dataset, uncovering patterns, trends, and insights. In this section, I explore various aspects of the dataset to gain a comprehensive understanding of the content available on Netflix, addressing key questions:
 
-2. **Hypothesis 2: Location and Funding Trends**
-   - Null Hypothesis (H0): The geographical location of a startup's headquarters does not influence its funding trends.
-   - Alternative Hypothesis (H1): Startups in specific locations tend to secure more funding during the specified period.
+1. **Release Trends Over the Years:**
+   - In which year did the highest number of TV shows and movies release? (Visualized using a Bar Graph)
 
-3. **Hypothesis 3: Investor Profile and Startup Success**
-   - Null Hypothesis (H0): The choice of investor has no substantial effect on the success and funding received by startups.
-   - Alternative Hypothesis (H1): The involvement of certain investors is correlated with higher levels of funding and greater success for startups.
+2. **Movies and TV Shows by Top 10 Directors:**
+   - Show all records where the category is "Movie" and type is "Comedians" or the country is "United Kingdom." Additionally, display the top 10 directors who gave the highest number of TV shows and movies to Netflix. (Visualized using a Bar Graph)
 
-4. **Hypothesis 4: Founding Team and Funding Stages**
-   - Null Hypothesis (H0): The number of founders in a startup does not significantly impact the stage of development reached or the funding received.
-   - Alternative Hypothesis (H1): Startups with a specific number of founders are more likely to reach advanced stages and secure higher funding.
+3. **Different Ratings Defined by Netflix:**
+   - What are the different ratings defined by Netflix?
+     
+## Results 
 
-5. **Hypothesis 5: Industry and Success Stages**
-   - Null Hypothesis (H0): The industry in which a startup operates is not related to its success stage or funding amount.
-   - Alternative Hypothesis (H1): The industry sector plays a role in determining the success stage and funding received by startups.
+The Netflix dataset analysis reveals significant trends. The year 2019 stands out with the most releases, marking a pivotal moment in Netflix content production. Raúl Campos, Jan Suter, and Marcus Raboy lead in directorial contributions, emphasizing their impact on Netflix's diverse content landscape. The dataset's ratings, encompassing 'TV-MA,' 'R,' 'PG-13,' etc., showcase the platform's commitment to varied content suitability. The United States dominates TV show contributions, emphasizing its global influence. A concise bar graph illustrates the distribution of movies and TV shows, highlighting insights into content diversity. 
+![Bar graph](https://github.com/PacalineN/Netflix-Data-Analysis-with-Python-Unveiling-Insights-and-Trends/assets/149051166/7cf723dc-8a28-4437-8ca3-189ec759e756)
 
-These hypotheses reflect the factors and relationships you can explore in your project based on your project description. They will guide your data analysis and help you draw meaningful insights about the Indian startup funding landscape from 2019 to 2021.
+## Recommendation
+For those intrigued by the dynamics of Netflix content, this project offers a compelling exploration of key facets. The detailed analyses and visualizations provide a nuanced understanding of release patterns and directorial contributions. The inclusion of content ratings and a focus on top directors enhance the depth of insights. The project's use of a bar graph to represent distribution adds clarity. Overall, this analysis serves as a valuable reference for individuals interested in content consumption trends on streaming platforms, providing a comprehensive overview of Netflix's evolving content landscape.
+
+## Reference
+
+The dataset used in this project is sourced from Flixable, a third-party Netflix search engine. Flixable provides comprehensive information about TV shows and movies available on Netflix up until 2021. The dataset is freely accessible on Kaggle, a platform for data science and machine learning enthusiasts. The data from Flixable serves as a valuable resource for exploring trends, patterns, and insights within the Netflix content landscape. The original dataset can be found on Kaggle, and credit goes to Flixable for compiling and making the data publicly available.
+
+
+
+
+
+
+
+  
