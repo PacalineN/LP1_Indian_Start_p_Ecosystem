@@ -29,10 +29,35 @@ The data sources for this project are attributed to aAzubi Africa, providing acc
 
 
 ## Data Cleaning
-In the initial data preparation phase,I performed the following tasks : 
-1. Data loading and inspectation
-2. Handling missing values
-3. Data cleaning and formatting
+
+
+In the initial phase of data preparation, I undertook the following tasks:
+
+1. *Data Loading and Inspection:*
+   - Loaded the data from various sources and conducted a thorough inspection year by year.
+
+2. *Renaming Columns:*
+   - Renamed some columns to align with other dataset columns, for example, changing "Amount" to "Amount($)".
+
+3. *Concatenating Datasets:*
+   - Combined datasets from different sources to create a unified dataset.
+
+4. *Inspecting the Combined Dataset:*
+   - Reviewed the combined dataset column by column.
+
+5. *Handling Missing Values and Inconsistent Labels:*
+   - Managed missing values and addressed inconsistent labels to ensure data integrity.
+
+6. *Handling Currency Conversion:*
+   - Converted Indian Rupees (₹) to US Dollars ($).
+
+7. *Dropping Unnecessary Columns:*
+   - Removed some columns that were not going to be used.
+
+8. *Data Cleaning and Formatting:*
+   - Cleaned and formatted the data by connecting and categorizing related information.
+
+This comprehensive data cleaning and preparation process ensures the dataset's reliability and sets the stage for meaningful analysis and insights.
 
 ## Exporatory Data Analysis
 
