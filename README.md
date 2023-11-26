@@ -61,17 +61,26 @@ This comprehensive data cleaning and preparation process ensures the dataset's r
 
 ## Exporatory Data Analysis
 
-Exploratory Data Analysis (EDA) is crucial for understanding the Netflix dataset, uncovering patterns, trends, and insights. In this section, I explore various aspects of the dataset to gain a comprehensive understanding of the content available on Netflix, addressing key questions:
+## Exploratory Data Analysis (EDA) Overview
 
-1. **Release Trends Over the Years:**
-   - In which year did the highest number of TV shows and movies release? (Visualized using a Bar Graph)
+The Exploratory Data Analysis (EDA) stage plays a crucial role in unlocking the secrets of the Indian startup dataset. Here, I dig into the data to uncover patterns, trends, and valuable insights. This exploration focuses on answering key questions:
 
-2. **Movies and TV Shows by Top 10 Directors:**
-   - Show all records where the category is "Movie" and type is "Comedians" or the country is "United Kingdom." Additionally, display the top 10 directors who gave the highest number of TV shows and movies to Netflix. (Visualized using a Bar Graph)
+1. **Which Industry Got the Most Funding?**
+   - Figuring out which industry scored the big bucks in terms of funding.
 
-3. **Different Ratings Defined by Netflix:**
-   - What are the different ratings defined by Netflix?
-     
+2. **Top Location for Funding:**
+   - Pinpointing the location that bagged the most funding.
+
+3. **Annual Companies with Funding:**
+   - Checking out how many companies snagged funding each year.
+
+4. **Yearly Total Funding Amount:**
+   - Adding up the total funding received each year to understand the financial landscape.
+
+5. **Most Funded Company:**
+   - Identifying the top dog that raked in the most funds.
+
+This deep dive isn't just about answering questions but setting the stage for a deeper understanding of the data. It's all about turning raw numbers into meaningful insights that guide the next steps in our analysis. Let's uncover the stories behind the data!
 ## Results 
 
 The Netflix dataset analysis reveals significant trends. The year 2019 stands out with the most releases, marking a pivotal moment in Netflix content production. Raúl Campos, Jan Suter, and Marcus Raboy lead in directorial contributions, emphasizing their impact on Netflix's diverse content landscape. The dataset's ratings, encompassing 'TV-MA,' 'R,' 'PG-13,' etc., showcase the platform's commitment to varied content suitability. The United States dominates TV show contributions, emphasizing its global influence. A concise bar graph illustrates the distribution of movies and TV shows, highlighting insights into content diversity. 
